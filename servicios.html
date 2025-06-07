@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - AutoPremium</title>
+    <meta name="description" content="Conoce todos nuestros servicios: venta de vehículos, financiamiento, seguros, servicio técnico y más.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <span class="logo-icon">🚗</span>
+                    <span class="logo-text">AutoPremium</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="index.html#vehiculos" class="nav-link">Vehículos</a>
+                    <a href="servicios.html" class="nav-link">Servicios</a>
+                    <a href="contact.html" class="nav-link">Contacto</a>
+                </nav>
+                <button class="btn btn-primary">
+                    📞 Llamar Ahora
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="services-hero">
+        <div class="services-hero-background"></div>
+        
+        <!-- SVG Pattern Background -->
+        <svg class="services-pattern" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <defs>
+                <pattern id="servicesGrid" width="8" height="8" patternUnits="userSpaceOnUse">
+                    <circle cx="4" cy="4" r="1" fill="rgba(37, 99, 235, 0.1)"/>
+                </pattern>
+            </defs>
+            <rect width="100" height="100" fill="url(#servicesGrid)" />
+        </svg>
+
+        <div class="container">
+            <div class="services-hero-content">
+                <h1 class="services-hero-title">
+                    Nuestros <span class="gradient-text">Servicios</span>
+                </h1>
+                <p class="services-hero-subtitle">
+                    Ofrecemos una experiencia completa en la compra, venta y mantenimiento de tu vehículo con los más altos estándares de calidad
+                </p>
+                
+                <!-- Animated Icons -->
+                <div class="animated-icons">
+                    <div class="service-icon-float">🚗</div>
+                    <div class="service-icon-float">🛡️</div>
+                    <div class="service-icon-float">🔧</div>
+                    <div class="service-icon-float">💳</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Services Section -->
+    <section class="main-services">
+        <div class="container">
+            <div class="services-detailed-grid">
+                
+                <!-- Venta de Vehículos -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-header">
+                        <div class="service-detailed-icon">🚗</div>
+                        <h3 class="service-detailed-title">Venta de Vehículos Premium</h3>
+                    </div>
+                    <div class="service-detailed-image">
+                        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Showroom de vehículos" loading="lazy">
+                    </div>
+                    <div class="service-detailed-content">
+                        <p class="service-detailed-description">
+                            Contamos con más de 500 vehículos nuevos y seminuevos de las mejores marcas del mercado. Cada vehículo pasa por una rigurosa inspección de calidad.
+                        </p>
+                        <ul class="service-features-list">
+                            <li>✓ Vehículos nuevos y seminuevos</li>
+                            <li>✓ Marcas premium: BMW, Mercedes, Audi</li>
+                            <li>✓ Inspección de 120 puntos</li>
+                            <li>✓ Historial vehicular completo</li>
+                            <li>✓ Entrega inmediata</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Ver Inventario</button>
+                    </div>
+                </div>
+
+                <!-- Garantía Extendida -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-header">
+                        <div class="service-detailed-icon">🛡️</div>
+                        <h3 class="service-detailed-title">Garantía Extendida</h3>
+                    </div>
+                    <div class="service-detailed-image">
+                        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Garantía de vehículos" loading="lazy">
+                    </div>
+                    <div class="service-detailed-content">
+                        <p class="service-detailed-description">
+                            Protege tu inversión con nuestros planes de garantía extendida que cubren motor, transmisión y componentes eléctricos principales.
+                        </p>
+                        <ul class="service-features-list">
+                            <li>✓ Cobertura hasta 5 años</li>
+                            <li>✓ Kilometraje ilimitado</li>
+                            <li>✓ Red nacional de talleres</li>
+                            <li>✓ Atención 24/7</li>
+                            <li>✓ Auto de reemplazo</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Conocer Planes</button>
+                    </div>
+                </div>
+
+                <!-- Servicio Técnico -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-header">
+                        <div class="service-detailed-icon">🔧</div>
+                        <h3 class="service-detailed-title">Servicio Técnico Especializado</h3>
+                    </div>
+                    <div class="service-detailed-image">
+                        <img src="img/servicio.jpg" alt="Taller mecánico" loading="lazy">
+                    </div>
+                    <div class="service-detailed-content">
+                        <p class="service-detailed-description">
+                            Nuestro taller cuenta con técnicos certificados y equipos de última generación para mantener tu vehículo en perfectas condiciones.
+                        </p>
+                        <ul class="service-features-list">
+                            <li>✓ Técnicos certificados por marca</li>
+                            <li>✓ Repuestos originales</li>
+                            <li>✓ Diagnóstico computarizado</li>
+                            <li>✓ Mantenimientos preventivos</li>
+                            <li>✓ Servicio a domicilio</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Agendar Servicio</button>
+                    </div>
+                </div>
+
+                <!-- Financiamiento -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-header">
+                        <div class="service-detailed-icon">💳</div>
+                        <h3 class="service-detailed-title">Financiamiento Flexible</h3>
+                    </div>
+                    <div class="service-detailed-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Financiamiento de vehículos" loading="lazy">
+                    </div>
+                    <div class="service-detailed-content">
+                        <p class="service-detailed-description">
+                            Ofrecemos las mejores opciones de financiamiento con tasas preferenciales y planes adaptados a tu capacidad de pago.
+                        </p>
+                        <ul class="service-features-list">
+                            <li>✓ Tasas desde 8.9% anual</li>
+                            <li>✓ Hasta 84 meses de plazo</li>
+                            <li>✓ Sin enganche necesario</li>
+                            <li>✓ Aprobación inmediata</li>
+                            <li>✓ Seguros incluidos</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Simular Crédito</button>
+                    </div>
+                </div>
+
+                <!-- Seguros -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-header">
+                        <div class="service-detailed-icon">🛡️</div>
+                        <h3 class="service-detailed-title">Seguros Vehiculares</h3>
+                    </div>
+                    <div class="service-detailed-image">
+                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Seguro de auto" loading="lazy">
+                    </div>
+                    <div class="service-detailed-content">
+                        <p class="service-detailed-description">
+                            Protege tu vehículo con nuestros planes de seguro que incluyen cobertura amplia y asistencia vial las 24 horas.
+                        </p>
+                        <ul class="service-features-list">
+                            <li>✓ Cobertura amplia</li>
+                            <li>✓ Asistencia vial 24/7</li>
+                            <li>✓ Red de talleres aliados</li>
+                            <li>✓ Reparación con repuestos originales</li>
+                            <li>✓ Auto de reemplazo</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Cotizar Seguro</button>
+                    </div>
+                </div>
+
+                <!-- Intercambio -->
+                <div class="service-detailed-card">
+                    <div class="service-detailed-header">
+                        <div class="service-detailed-icon">🔄</div>
+                        <h3 class="service-detailed-title">Intercambio de Vehículos</h3>
+                    </div>
+                    <div class="service-detailed-image">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Intercambio de vehículos" loading="lazy">
+                    </div>
+                    <div class="service-detailed-content">
+                        <p class="service-detailed-description">
+                            Recibimos tu vehículo actual como parte de pago para la compra de uno nuevo. Evaluación justa y transparente garantizada.
+                        </p>
+                        <ul class="service-features-list">
+                            <li>✓ Evaluación gratuita</li>
+                            <li>✓ Precio justo de mercado</li>
+                            <li>✓ Trámites incluidos</li>
+                            <li>✓ Proceso rápido</li>
+                            <li>✓ Sin restricciones de marca</li>
+                        </ul>
+                        <button class="btn btn-primary btn-full">Evaluar Vehículo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Proceso</h2>
+                <p class="section-subtitle">
+                    Un proceso simple y transparente para que encuentres tu vehículo ideal
+                </p>
+            </div>
+
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Consulta Inicial</h3>
+                        <p class="step-description">Conversamos sobre tus necesidades y presupuesto</p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Selección</h3>
+                        <p class="step-description">Te mostramos opciones que se adapten a tu perfil</p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Prueba de Manejo</h3>
+                        <p class="step-description">Experimenta el vehículo antes de decidir</p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Financiamiento</h3>
+                        <p class="step-description">Configuramos el plan de pago ideal</p>
+                    </div>
+                </div>
+
+                <div class="process-arrow">→</div>
+
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Entrega</h3>
+                        <p class="step-description">Recibe tu vehículo listo para rodar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="services-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Listo para Encontrar tu Vehículo Ideal?</h2>
+                <p class="cta-subtitle">
+                    Nuestro equipo de expertos está aquí para ayudarte en cada paso del proceso
+                </p>
+                <div class="cta-buttons">
+                    <a href="index.html#vehiculos" class="btn btn-primary btn-large">Ver Inventario</a>
+                    <a href="contact.html" class="btn btn-outline btn-large">Contactar Asesor</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🚗</span>
+                        <span class="logo-text">AutoPremium</span>
+                    </div>
+                    <p class="footer-description">
+                        Tu concesionario de confianza para encontrar el vehículo perfecto.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html#vehiculos">Vehículos</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Servicios</h3>
+                    <ul class="footer-links">
+                        <li>Venta de Vehículos</li>
+                        <li>Financiamiento</li>
+                        <li>Seguros</li>
+                        <li>Servicio Técnico</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AutoPremium. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header background on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Animate service cards on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-detailed-card').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
